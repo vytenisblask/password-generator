@@ -6,7 +6,7 @@ Open [Random Password Generator](https://passgen.takais.lt/)
 
 ## Description
 
-This project is a React-based random password generator built with Next.js and styled using Tailwind CSS. It allows users to generate strong, customizable passwords with options for including uppercase letters, lowercase letters, numbers, and symbols.
+This is a React-based random password generator built with Next.js and styled using Tailwind CSS. It allows users to generate strong, customizable passwords with options for including uppercase letters, lowercase letters, numbers, and symbols.
 
 ## Features
 
