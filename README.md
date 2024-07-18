@@ -1,5 +1,9 @@
 # Random Password Generator
 
+## Check it live here
+
+Open [Random Password Generator](http://localhost:3000) # password-generator
+
 ## Description
 
 This project is a React-based random password generator built with Next.js and styled using Tailwind CSS. It allows users to generate strong, customizable passwords with options for including uppercase letters, lowercase letters, numbers, and symbols.
@@ -17,7 +21,3 @@ This project is a React-based random password generator built with Next.js and s
 - Next.js
 - TypeScript
 - Tailwind CSS
-
-## Check it live here
-
-Open [http://localhost:3000](http://localhost:3000) # password-generator
