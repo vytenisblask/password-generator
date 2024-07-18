@@ -2,7 +2,7 @@
 
 ## Check it live here
 
-Open [Random Password Generator](http://localhost:3000) # password-generator
+Open [Random Password Generator](https://passgen.takais.lt/)
 
 ## Description
 
