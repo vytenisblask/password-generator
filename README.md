@@ -20,4 +20,4 @@ This project is a React-based random password generator built with Next.js and s
 
 ## Check it live here
 
-Open [http://localhost:3000](http://localhost:3000) 
+Open [http://localhost:3000](http://localhost:3000) # password-generator
