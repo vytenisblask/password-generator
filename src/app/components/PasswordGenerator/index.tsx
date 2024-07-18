@@ -105,43 +105,47 @@ const PasswordGenerator: React.FC = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 sm:flex sm:flex-row sm:justify-center items-center justify-items-center gap-2 sm:gap-4">
-          <label className="flex items-center">
-            <input
-              type="checkbox"
-              checked={includeUppercase}
-              onChange={() => setIncludeUppercase(!includeUppercase)}
-              className="mr-2"
-            />
-            uppercase
-          </label>
-          <label className="flex items-center">
-            <input
-              type="checkbox"
-              checked={includeLowercase}
-              onChange={() => setIncludeLowercase(!includeLowercase)}
-              className="mr-2"
-            />
-            lowercase
-          </label>
-          <label className="flex items-center">
-            <input
-              type="checkbox"
-              checked={includeNumbers}
-              onChange={() => setIncludeNumbers(!includeNumbers)}
-              className="mr-2"
-            />
-            numbers
-          </label>
-          <label className="flex items-center">
-            <input
-              type="checkbox"
-              checked={includeSymbols}
-              onChange={() => setIncludeSymbols(!includeSymbols)}
-              className="mr-2"
-            />
-            symbols
-          </label>
+        <div className="grid grid-cols-2 sm:flex sm:flex-row sm:justify-center items-start sm:items-center justify-items-start gap-4 sm:gap-6 max-w-[250px] sm:max-w-none m-auto">
+          <div className="flex flex-col sm:flex-row gap-2">
+            <label className="flex items-center mb-0 sm:mr-3">
+              <input
+                type="checkbox"
+                checked={includeUppercase}
+                onChange={() => setIncludeUppercase(!includeUppercase)}
+                className="mr-2"
+              />
+              uppercase
+            </label>
+            <label className="flex items-center">
+              <input
+                type="checkbox"
+                checked={includeLowercase}
+                onChange={() => setIncludeLowercase(!includeLowercase)}
+                className="mr-2"
+              />
+              lowercase
+            </label>
+          </div>
+          <div className="flex flex-col sm:flex-row gap-2">
+            <label className="flex items-center mb-0 sm:mr-3">
+              <input
+                type="checkbox"
+                checked={includeNumbers}
+                onChange={() => setIncludeNumbers(!includeNumbers)}
+                className="mr-2"
+              />
+              numbers
+            </label>
+            <label className="flex items-center">
+              <input
+                type="checkbox"
+                checked={includeSymbols}
+                onChange={() => setIncludeSymbols(!includeSymbols)}
+                className="mr-2"
+              />
+              symbols
+            </label>
+          </div>
         </div>
       </div>
     </div>
