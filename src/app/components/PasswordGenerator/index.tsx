@@ -105,7 +105,7 @@ const PasswordGenerator: React.FC = () => {
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row sm:justify-center items-center gap-2 sm:gap-4">
+        <div className="grid grid-cols-2 sm:flex sm:flex-row sm:justify-center items-center justify-items-center gap-2 sm:gap-4">
           <label className="flex items-center">
             <input
               type="checkbox"
