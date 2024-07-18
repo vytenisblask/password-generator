@@ -61,7 +61,7 @@ const PasswordGenerator: React.FC = () => {
             readOnly
             className="bg-white text-black font-semibold p-2 min-w-[250px] py-3 flex-grow pl-4"
           />
-          <div className="flex flex-row gap-1">
+          <div className="flex flex-row gap-2">
             <button
               onClick={generatePassword}
               className="bg-gray-300 hover:bg-gray-400 active:bg-gray-500 p-3"
@@ -93,7 +93,7 @@ const PasswordGenerator: React.FC = () => {
             </button>
             <button
               onClick={copyPassword}
-              className="bg-green-500 hover:bg-green-700 active:bg-green-800 text-white font-semibold py-2 px-8 sm:px-10 relative"
+              className="bg-green-500 hover:bg-green-700 active:bg-green-800 text-white font-semibold py-2 px-10 sm:px-8 sm:px-10 relative"
             >
               Copy Password
               {showTooltip && (
@@ -105,7 +105,7 @@ const PasswordGenerator: React.FC = () => {
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row sm:justify-center items-center gap-4">
+        <div className="flex flex-col sm:flex-row sm:justify-center items-center gap-2 sm:gap-4">
           <label className="flex items-center">
             <input
               type="checkbox"
