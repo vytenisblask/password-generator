@@ -39,7 +39,7 @@ const PasswordGenerator: React.FC = () => {
   const copyPassword = () => {
     navigator.clipboard.writeText(password);
     setShowTooltip(true);
-    setTimeout(() => setShowTooltip(false), 2000); // Hide tooltip after 2 seconds
+    setTimeout(() => setShowTooltip(false), 2000);
   };
 
   return (
