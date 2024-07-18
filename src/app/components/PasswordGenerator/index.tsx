@@ -43,7 +43,7 @@ const PasswordGenerator: React.FC = () => {
   };
 
   return (
-    <div className="container bg-black text-white p-8 py-20 rounded-lg mx-auto">
+    <div className="container bg-black text-white p-8 py-20 rounded-none sm:rounded-lg mx-auto">
       <h1 className="text-3xl font-bold mb-4 text-center">
         Generate Strong Password
       </h1>
@@ -53,13 +53,13 @@ const PasswordGenerator: React.FC = () => {
         guess.
       </p>
 
-      <div className="flex flex-col max-w-3xl mx-auto px-4">
+      <div className="flex flex-col max-w-3xl mx-auto">
         <div className="flex flex-col sm:flex-row items-center mb-6 gap-2 sm:gap-0">
           <input
             type="text"
             value={password}
             readOnly
-            className="bg-white text-black font-semibold p-2 py-3 flex-grow pl-4"
+            className="bg-white text-black font-semibold p-2 min-w-[250px] py-3 flex-grow pl-4"
           />
           <div className="flex flex-row gap-1">
             <button

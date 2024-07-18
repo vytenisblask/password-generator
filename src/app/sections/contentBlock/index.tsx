@@ -29,8 +29,8 @@ const ContentBlock: React.FC<ContentBlockProps> = ({
             alt={altText}
             width={300}
             height={300}
-            // layout="responsive"
             className="rounded-lg"
+            style={{ width: "auto", height: "auto" }}
           />
         </div>
         <div className="w-full md:w-1/2">
