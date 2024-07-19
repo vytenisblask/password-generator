@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    sassOptions: {
+        includePaths: ['./src/styles'],
+        prependData: `@import "variables.scss"; @import "mixins.scss";`,
+    },
+};
 
 export default nextConfig;

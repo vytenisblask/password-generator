@@ -1,16 +1,11 @@
 import Image from "next/image";
+import "./Header.scss";
 
 const Header = () => {
   return (
-    <header className="bg-black p-4">
-      <div className="container mx-auto">
-        <Image
-          src="/images/cb_logo.svg"
-          alt="Logo"
-          width={150}
-          height={50}
-          className="w-auto h-8"
-        />
+    <header className="header">
+      <div className="container">
+        <Image src="/images/cb_logo.svg" alt="Logo" width={150} height={50} />
       </div>
     </header>
   );

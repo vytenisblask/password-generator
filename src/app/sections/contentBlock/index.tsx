@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ReactNode } from "react";
+import "./ContentBlock.scss";
 
 interface ContentBlockProps {
   imageUrl: string;
@@ -17,25 +18,14 @@ const ContentBlock: React.FC<ContentBlockProps> = ({
   imageOnLeft = true,
 }) => {
   return (
-    <div className="container mx-auto py-8 px-4 my-10">
-      <div
-        className={`flex flex-col ${
-          imageOnLeft ? "md:flex-row" : "md:flex-row-reverse"
-        } items-center gap-8`}
-      >
-        <div className="w-full md:w-1/2 flex justify-center">
-          <Image
-            src={imageUrl}
-            alt={altText}
-            width={300}
-            height={300}
-            className="rounded-lg"
-            style={{ width: "auto", height: "auto" }}
-          />
+    <div className="container content-block">
+      <div className={`content-wrapper ${imageOnLeft ? "" : "image-right"}`}>
+        <div className="image-container">
+          <Image src={imageUrl} alt={altText} width={300} height={300} />
         </div>
-        <div className="w-full md:w-1/2">
-          <h2 className="text-2xl font-bold mb-8">{title}</h2>
-          <p className="text-gray-500 leading-relaxed">{text}</p>
+        <div className="text-container">
+          <h2>{title}</h2>
+          <p>{text}</p>
         </div>
       </div>
     </div>

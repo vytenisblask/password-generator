@@ -1,0 +1,21 @@
+.sub-header {
+  padding: 1rem 0;
+
+  p {
+    text-align: center;
+    color: #9ca3af;
+    padding: 1rem;
+    margin: 0 auto;
+
+    a {
+      font-weight: 600;
+      text-decoration: none;
+      color: inherit;
+      margin-left: 5px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
