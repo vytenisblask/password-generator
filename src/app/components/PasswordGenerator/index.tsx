@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import "./PasswordGenerator.scss";
 
 const PasswordGenerator: React.FC = () => {
   const [password, setPassword] = useState<string>("");

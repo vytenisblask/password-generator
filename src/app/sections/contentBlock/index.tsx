@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { ReactNode } from "react";
-import "./ContentBlock.scss";
 
 interface ContentBlockProps {
   imageUrl: string;
