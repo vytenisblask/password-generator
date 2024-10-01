@@ -2,14 +2,13 @@ const SubHeader = () => {
   return (
     <div className="container sub-header">
       <p>
-        Our readers help us create quality content. If you purchase via links on
-        our site, we may receive affiliate commissions.
+        We create simple and useful tools to enhance your experience on the web.
         <a
-          href="https://cybernews.com/about-us/"
+          href="http://colormind.io/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn more
+          Learn more.
         </a>
       </p>
     </div>
